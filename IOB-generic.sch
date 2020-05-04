@@ -1143,7 +1143,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <sheet>
 <plain>
 <text x="149.86" y="20.32" size="3.81" layer="91">IOB Generic I/O</text>
-<text x="238.76" y="12.7" size="3.81" layer="91">1.0</text>
+<text x="238.76" y="12.7" size="3.81" layer="91">2.0</text>
 <text x="241.046" y="5.588" size="3.81" layer="91">A</text>
 <text x="165.1" y="6.35" size="1.6764" layer="91" ratio="14">John Plocher</text>
 </plain>
