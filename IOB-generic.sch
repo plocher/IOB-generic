@@ -199,7 +199,7 @@
 <wire x1="50.038" y1="1.27" x2="51.943" y2="1.27" width="2.1844" layer="22"/>
 <text x="38.227" y="18.288" size="1.27" layer="22" font="vector" rot="MR0">IOB to IO4 Interface</text>
 <text x="39.751" y="0.508" size="1.016" layer="22" font="vector" rot="MR0">Made in the PCR, Coast Div, NMRA</text>
-<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is   Fun!</text>
+<text x="39.37" y="16.129" size="1.016" layer="22" font="vector" rot="MR0">Model Railroading is Fun!</text>
 <wire x1="43.053" y1="19.05" x2="43.053" y2="1.27" width="1.27" layer="22"/>
 </package>
 <package name="RJ24-INVERTED-PINS">
@@ -649,36 +649,6 @@
 <circle x="0" y="0" radius="1.14" width="0.127" layer="41"/>
 <text x="-1.905" y="-2.54" size="1.016" layer="25">&gt;NAME</text>
 </package>
-<package name="IOB-IO4-CLEAN">
-<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
-<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
-<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
-<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
-<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
-<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
-<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
-<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
-<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
-<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
-<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
-<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
-<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
-<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
-<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
-<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
-<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
-<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
-<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
-<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
-<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
-<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
-<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
-<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
-<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
-<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
-</package>
 <package name="RJ25-PANEL">
 <description>Modular Jackwith Panel Stops</description>
 <wire x1="6.562" y1="11.044" x2="6.562" y2="-6.9215" width="0.2032" layer="21"/>
@@ -744,6 +714,36 @@
 <wire x1="1.27" y1="0.635" x2="-1.27" y2="-0.635" width="0.254" layer="1"/>
 <text x="0" y="1.27" size="0.4064" layer="27" font="vector">&gt;VALUE</text>
 <text x="-3.81" y="1.27" size="0.4064" layer="25" font="vector">&gt;NAME</text>
+</package>
+<package name="IOB-IO4-NOBOTSILK">
+<wire x1="0" y1="0" x2="53.34" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="0" x2="53.34" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="53.34" y1="20.32" x2="0" y2="20.32" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="20.32" x2="0" y2="16.637" width="0.127" layer="48" style="shortdash"/>
+<pad name="V5" x="12.319" y="18.288" drill="0.9" shape="square"/>
+<pad name="VOUT" x="9.779" y="18.034" drill="0.9"/>
+<pad name="V+" x="7.239" y="18.288" drill="0.9"/>
+<pad name="P1" x="44.958" y="12.446" drill="0.9"/>
+<pad name="P2" x="45.212" y="9.906" drill="0.9"/>
+<pad name="P3" x="44.958" y="7.366" drill="0.9"/>
+<pad name="P4" x="45.212" y="4.826" drill="0.9"/>
+<pad name="V5@1" x="45.212" y="14.986" drill="0.9" shape="square"/>
+<pad name="G@3" x="44.958" y="2.286" drill="0.9"/>
+<circle x="15.875" y="1.397" radius="0.127" width="0.0254" layer="48"/>
+<circle x="51.435" y="18.415" radius="0.127" width="0.0254" layer="48"/>
+<wire x1="0" y1="16.637" x2="0" y2="1.143" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="1.143" x2="0" y2="0" width="0.127" layer="48" style="shortdash"/>
+<wire x1="0" y1="16.637" x2="12.954" y2="16.637" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="16.637" x2="12.954" y2="1.143" width="0.0254" layer="48"/>
+<wire x1="12.954" y1="1.143" x2="0" y2="1.143" width="0.0254" layer="48"/>
+<text x="17.653" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">5v</text>
+<text x="5.207" y="19.177" size="1.6764" layer="21" font="vector" rot="R180">VIN</text>
+<text x="42.799" y="12.065" size="1.27" layer="21" font="vector" rot="R90">1</text>
+<text x="42.799" y="9.525" size="1.27" layer="21" font="vector" rot="R90">2</text>
+<text x="42.799" y="6.985" size="1.27" layer="21" font="vector" rot="R90">3</text>
+<text x="42.799" y="4.445" size="1.27" layer="21" font="vector" rot="R90">4</text>
+<text x="42.799" y="14.605" size="1.27" layer="21" font="vector" rot="R90">5v</text>
+<text x="44.196" y="2.794" size="1.27" layer="21" font="vector" rot="R180">Gnd</text>
 </package>
 </packages>
 <symbols>
@@ -911,7 +911,7 @@
 <gate name="IOB" symbol="IO4-IOB" x="0" y="0"/>
 </gates>
 <devices>
-<device name="BARE" package="IO4-IOB">
+<device name="FULL" package="IO4-IOB">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -926,7 +926,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="CLEAN" package="IOB-IO4-CLEAN">
+<device name="NOBSILK" package="IOB-IO4-NOBOTSILK">
 <connects>
 <connect gate="IOB" pin="5V" pad="V5 V5@1"/>
 <connect gate="IOB" pin="GND" pad="G@3"/>
@@ -1200,7 +1200,7 @@ By microbuilder.eu&lt;/p&gt;</description>
 <part name="FRAME1" library="SPCoast" deviceset="DOC-FRAME-LETTER" device=""/>
 <part name="J1" library="SPCoast" deviceset="CONNECTOR-IO4" device="IPINS" value="RJ12/6"/>
 <part name="V14" library="supply2" deviceset="GND" device=""/>
-<part name="IOB" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="BARE"/>
+<part name="IOB" library="SPCoast" deviceset="CONNECTOR-IO4-IOB" device="FULL"/>
 <part name="VCC3" library="SPCoast" deviceset="VCCIO" device=""/>
 <part name="VIN" library="supply1" deviceset="VCC" device="" value="VIN"/>
 <part name="V6" library="supply2" deviceset="GND" device=""/>
