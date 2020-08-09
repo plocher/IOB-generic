@@ -44,6 +44,7 @@ feeders.csv
 *.parts.csv
 *.sch.png
 *.top.brd.png
+*parts.csv
 
 # Eagle temp files
 
