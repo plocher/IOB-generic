@@ -8,21 +8,21 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="23" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="29" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="16" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="23" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="29" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="yes"/>
 <layer number="21" name="tPlace" color="8" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="8" fill="1" visible="no" active="yes"/>
-<layer number="23" name="tOrigins" color="30" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="30" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="63" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="63" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="34" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="56" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="56" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
@@ -32,17 +32,17 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
 <layer number="40" name="bKeepout" color="3" fill="11" visible="no" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
 <layer number="42" name="bRestrict" color="3" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="16" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="35" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="21" fill="1" visible="yes" active="yes"/>
+<layer number="44" name="Drills" color="16" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="35" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="35" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="21" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="57" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="48" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="48" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
 <layer number="51" name="tDocu" color="8" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
@@ -66,7 +66,7 @@
 <layer number="59" name="tCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="60" name="bCarbon" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="no" active="no"/>
-<layer number="125" name="_tNames" color="14" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="14" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -79,13 +79,13 @@
 <text x="49.657" y="3.048" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="15.113" y="16.764" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="15.875" y="4.064" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>
-<text x="-3.81" y="1.905" size="1.27" layer="48" font="vector" ratio="10" rot="R90">Yellow Soldermask
+<text x="-3.81" y="1.905" size="1.27" layer="21" font="vector" ratio="10" rot="R90">Yellow Soldermask
 White Silkscreen</text>
 <text x="31.496" y="13.716" size="0.8128" layer="21" font="vector" ratio="10" rot="SR90"> Cut if
 &lt; using
 resistor</text>
 <text x="4.699" y="5.969" size="1.016" layer="21" font="vector" rot="R90">2020.08</text>
-<text x="55.245" y="1.27" size="1.4224" layer="48" font="vector" ratio="10" rot="R90">Yellow Headers</text>
+<text x="55.245" y="1.27" size="1.4224" layer="21" font="vector" ratio="10" rot="R90">Yellow Headers</text>
 <text x="-5.08" y="0.127" size="1.016" layer="125" font="vector">FID1</text>
 <text x="53.975" y="18.923" size="1.016" layer="125" font="vector">FID2</text>
 <text x="32.258" y="11.4935" size="0.4064" layer="125" font="vector" rot="R180">R9</text>
