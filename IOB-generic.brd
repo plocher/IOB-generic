@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="dots" multiple="2" display="yes" altdistance="25" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="23" fill="1" visible="yes" active="yes"/>
@@ -75,7 +75,7 @@
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.254" layer="46"/>
 <wire x1="0" y1="0" x2="53.34" y2="0" width="0.254" layer="46"/>
 <text x="2.54" y="5.461" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="18.669" y="0.889" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
+<text x="52.959" y="0.889" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
 <text x="49.657" y="3.048" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="15.113" y="16.764" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="15.875" y="4.064" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>

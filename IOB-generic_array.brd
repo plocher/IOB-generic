@@ -163,7 +163,7 @@
 <wire x1="25.4" y1="29.21" x2="25.4" y2="8.89" width="0.254" layer="46"/>
 <wire x1="25.4" y1="8.89" x2="78.74" y2="8.89" width="0.254" layer="46"/>
 <text x="27.94" y="14.351" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="44.069" y="9.779" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
+<text x="77.089" y="9.779" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
 <text x="75.057" y="11.938" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="40.513" y="25.654" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="41.275" y="12.954" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>
@@ -188,7 +188,7 @@ resistor</text>
 <wire x1="25.4" y1="49.53" x2="25.4" y2="29.21" width="0.254" layer="46"/>
 <wire x1="25.4" y1="29.21" x2="78.74" y2="29.21" width="0.254" layer="46"/>
 <text x="27.94" y="34.671" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="44.069" y="30.099" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
+<text x="77.089" y="30.099" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
 <text x="75.057" y="32.258" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="40.513" y="45.974" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="41.275" y="33.274" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>
@@ -213,7 +213,7 @@ resistor</text>
 <wire x1="25.4" y1="69.85" x2="25.4" y2="49.53" width="0.254" layer="46"/>
 <wire x1="25.4" y1="49.53" x2="78.74" y2="49.53" width="0.254" layer="46"/>
 <text x="27.94" y="54.991" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="44.069" y="50.419" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
+<text x="77.089" y="50.419" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
 <text x="75.057" y="52.578" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="40.513" y="66.294" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="41.275" y="53.594" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>
@@ -239,7 +239,7 @@ resistor</text>
 <wire x1="25.4" y1="90.17" x2="25.4" y2="69.85" width="0.254" layer="46"/>
 <wire x1="25.4" y1="69.85" x2="78.74" y2="69.85" width="0.254" layer="46"/>
 <text x="27.94" y="75.311" size="1.27" layer="21" font="vector" rot="R90">IO4-IOB</text>
-<text x="44.069" y="70.739" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
+<text x="77.089" y="70.739" size="1.016" layer="21" font="vector" rot="R90">2.1</text>
 <text x="75.057" y="72.898" size="1.27" layer="21" font="vector" rot="R90">Generic I/O</text>
 <text x="40.513" y="86.614" size="1.27" layer="22" font="vector" rot="MR270">John Plocher</text>
 <text x="41.275" y="73.914" size="1.778" layer="22" font="vector" rot="MR180">Generic Quad I/O</text>
